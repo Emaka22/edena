@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Favorites</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0a5a52">
+
+</head>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+</script>
+
+<body class="favorites-page">
+
+  <header class="favorites-header">
+    <h1 class="favorites-logo">FAVORITES</h1>
+  </header>
+
+  <section class="sortbar">
+    <span class="sort-label">SORT BY</span>
+    <div class="chip-group">
+      <button class="chip chip-brand">BRAND</button>
+      <button class="chip chip-price">PRICE</button>
+      <button class="chip chip-sust">
+        SUSTAINABILITY<br><small>POINTS</small>
+      </button>
+    </div>
+  </section>
+
+  <section class="favorites-grid">
+    <article class="fav-card"></article>
+    <article class="fav-card"></article>
+    <article class="fav-card"></article>
+    <article class="fav-card"></article>
+    <article class="fav-card"></article>
+    <article class="fav-card"></article>
+  </section>
+<header>
+  <a href="index.html" style="text-decoration:none;">← Back</a>
+  <h1>favorites page</h1>
+</header>
+
+</body>
+</html>

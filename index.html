@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Edena</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0a5a52">
+
+</head>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+</script>
+
+<body>
+  <div class="hero">
+
+    <h1 class="logo logo">EDENA</h1>
+
+    <div class="visuals">
+      <img src="assets/flower3.png" class="flower top-right behind float" alt="Behind flower">
+      <img src="assets/mannequin.png" class="mannequin" alt="Mannequin">
+      <img src="assets/flower3-leaf.png" class="flower leaf-in-front float" alt="Leaf in front">
+      <img src="assets/flower1.png" class="flower left float" alt="Orange flower (left)">
+      <img src="assets/flower2.png" class="flower bottom-right float" alt="Pink flower (bottom)">
+    </div>
+
+    <p class="tagline fade-up">
+      BUILD YOUR <strong>LIFE-LASTING</strong><br>
+      <strong>SUSTAINABLE</strong> CLOSET,<br>
+      TAILORED JUST <strong>FOR YOU</strong>
+    </p>
+
+    <div class="buttons fade-up">
+      <button class="btn">SIGN UP</button>
+      <button class="btn">LOG IN</button>
+    </div>
+  </div>
+  <div class="buttons fade-up">
+  <button class="btn">SIGN UP</button>
+  <button class="btn">LOG IN</button>
+  <a class="btn" href="favourites.html">FAVORITES</a>
+</div>
+</body>
+</html>
