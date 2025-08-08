@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up – Edena</title>
+  <!-- use the same stylesheet (with cache-bust like the login page) -->
+  <link rel="stylesheet" href="style.css?v=10" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap" rel="stylesheet">
+</head>
+<body class="auth-body no-card">
+  <div class="auth-shell">
+    <!-- Moving fog layers (same as login) -->
+    <div class="dust-layer"></div>
+    <div class="dust-layer layer2"></div>
+
+    <!-- Back to home (same placement as login) -->
+    <a href="index.html" class="auth-back">← Home</a>
+
+    <!-- Title (same class as login) -->
+    <h1 class="auth-title">Create account</h1>
+
+    <!-- Form (same input/button classes as login) -->
+    <form>
+      <input class="input-line" type="text" placeholder="Full Name" required>
+      <input class="input-line" type="email" placeholder="Email" required>
+      <input class="input-line" type="password" placeholder="Password" required>
+      <button class="btn center-btn" type="submit">SIGN UP</button>
+    </form>
+
+    <!-- Footer (mirrors login footer pattern) -->
+    <div class="auth-footer">
+      Already have an account? <a href="login.html">Log In</a>
+    </div>
+  </div>
+</body>
+</html>

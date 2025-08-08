@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Edena</title>
+  <title>Edena-t</title>
+
+
+  <!-- Single stylesheet link -->
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap" rel="stylesheet">
-<link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#0a5a52">
-
 </head>
-<script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./sw.js");
-}
-</script>
-
 <body>
   <div class="hero">
-
-    <h1 class="logo logo">EDENA</h1>
+    <!-- Cleaned up logo class -->
+    <h1 class="logo">EDENA</h1>
 
     <div class="visuals">
       <img src="assets/flower3.png" class="flower top-right behind float" alt="Behind flower">
@@ -36,15 +29,12 @@ if ("serviceWorker" in navigator) {
       TAILORED JUST <strong>FOR YOU</strong>
     </p>
 
-    <div class="buttons fade-up">
-      <button class="btn">SIGN UP</button>
-      <button class="btn">LOG IN</button>
-    </div>
-  </div>
-  <div class="buttons fade-up">
-  <button class="btn">SIGN UP</button>
-  <button class="btn">LOG IN</button>
-  <a class="btn" href="favourites.html">FAVORITES</a>
+ <div class="buttons fade-up">
+  <a class="btn" href="signup.html">SIGN UP</a>
+  <a class="btn" href="login.html">LOG IN</a>
+  <a class="btn" href="favourites.html">FAVOURITES</a>
 </div>
+
+
 </body>
 </html>
